@@ -3,7 +3,7 @@ public class Frisbee extends ObjetoCircular {
     private String material;
 
     public Frisbee(double radio, String color, String material) {
-        super(5.7);
+        super(radio);
         this.color = color;
         this.material = material;
         setTipo("Frisbee");
